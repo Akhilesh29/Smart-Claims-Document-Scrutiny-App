@@ -1,8 +1,6 @@
 # Smart Claims – Document Scrutiny App
 
-AI-assisted internal tool for faster, safer claims processing at Clinikk.
-
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18.0.0 or higher
@@ -30,12 +28,9 @@ AI-assisted internal tool for faster, safer claims processing at Clinikk.
    npm start
    ```
 
-4. **Access the application**
-   - Frontend: http://localhost:3000
-   - API: http://localhost:3000/api
-   - Health Check: http://localhost:3000/health
 
-## 🏗️ Architecture Overview
+
+## Architecture Overview
 
 ### System Components
 
@@ -62,7 +57,7 @@ Smart Claims App
 Upload → Classification → Grouping → Extraction → Business Checks → Review → Decision
 ```
 
-## 🔧 API Endpoints
+##  API Endpoints
 
 ### Claims Management
 - `GET /api/claims/pending` - Get pending claims queue
@@ -85,7 +80,7 @@ Upload → Classification → Grouping → Extraction → Business Checks → Re
 - `DELETE /api/upload/document/:claimId/:pageId` - Remove document
 - `GET /api/upload/claim/:claimId/documents` - Get claim documents
 
-## 📊 Data Models & Schemas
+## Data Models & Schemas
 
 ### Claim Structure
 ```json
@@ -148,7 +143,7 @@ Upload → Classification → Grouping → Extraction → Business Checks → Re
 }
 ```
 
-## 🧠 AI & Business Logic
+## AI & Business Logic
 
 ### Document Classification
 - **Deterministic approach** using keyword matching and pattern recognition
@@ -184,7 +179,7 @@ Upload → Classification → Grouping → Extraction → Business Checks → Re
 }
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Run Tests
 ```bash
@@ -204,7 +199,7 @@ npm test -- tests/BusinessCheckService.test.js
 - **AI Service**: Document processing and classification
 - **API Routes**: Endpoint functionality
 
-## 📱 Frontend Features
+## Frontend Features
 
 ### User Interface
 - **Claims Queue**: Overview of pending claims with quick flags
@@ -219,7 +214,7 @@ npm test -- tests/BusinessCheckService.test.js
 - Accessibility features
 - Modern Bootstrap 5 styling
 
-## 🔒 Security & Performance
+##  Security & Performance
 
 ### Security Features
 - Helmet.js for security headers
@@ -234,7 +229,7 @@ npm test -- tests/BusinessCheckService.test.js
 - Optimized OCR processing
 - Memory-efficient data structures
 
-## 🚧 Edge Cases Handled
+## Edge Cases Handled
 
 ### Document Processing
 - **Jumbled pages**: Intelligent grouping by document type and sequence
@@ -248,7 +243,7 @@ npm test -- tests/BusinessCheckService.test.js
 - **Missing signatures**: Boolean detection with evidence snippets
 - **Specialist validation**: Referral consistency and treatment fulfillment
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 ### Planned Features
 - Database integration (PostgreSQL/MongoDB)
@@ -263,38 +258,5 @@ npm test -- tests/BusinessCheckService.test.js
 - Caching layer for business rules
 - Horizontal scaling support
 
-## 🤝 Contributing
 
-### Development Setup
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open Pull Request
-
-### Code Standards
-- ESLint configuration
-- Prettier formatting
-- Jest testing framework
-- Conventional commit messages
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-### Common Issues
-- **OCR not working**: Ensure Tesseract.js is properly installed
-- **File upload fails**: Check file size and type restrictions
-- **Business checks error**: Verify T&C exclusions file exists
-
-### Getting Help
-- Create an issue in the repository
-- Check the troubleshooting section
-- Review the API documentation
-- Contact the development team
-
----
-
-**Built with ❤️ for Clinikk Operations Team** 
+ 
