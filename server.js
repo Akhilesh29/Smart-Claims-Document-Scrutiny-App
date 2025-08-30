@@ -73,9 +73,9 @@ async function startServer() {
   await ensureDirectories();
   
   app.listen(PORT, () => {
-    console.log(`🚀 Smart Claims Server running on port ${PORT}`);
-    console.log(`📱 Frontend: http://localhost:${PORT}`);
-    console.log(`🔌 API: http://localhost:${PORT}/api`);
+    console.log(`Smart Claims Server running on port ${PORT}`);
+    console.log(` Frontend: http://localhost:${PORT}`);
+    console.log(`API: http://localhost:${PORT}/api`);
   });
 }
 
