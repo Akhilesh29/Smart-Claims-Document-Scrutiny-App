@@ -12,7 +12,7 @@ AI-assisted internal tool for faster, safer claims processing at Clinikk.
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Akhilesh29/Smart-Claims-Document-Scrutiny-App
    cd smart-claims-document-scrutiny
    ```
 
