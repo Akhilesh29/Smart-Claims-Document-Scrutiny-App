@@ -1,0 +1,55 @@
+{
+  "excluded_items": [
+    "protein supplement",
+    "cosmetic procedure",
+    "vitamin supplements",
+    "dietary supplements",
+    "cosmetic surgery",
+    "elective procedures",
+    "beauty treatments",
+    "weight loss supplements",
+    "fitness supplements",
+    "cosmetic dentistry",
+    "plastic surgery",
+    "aesthetic procedures",
+    "wellness supplements",
+    "alternative medicine",
+    "homeopathic remedies"
+  ],
+  "excluded_categories": [
+    "cosmetic",
+    "elective",
+    "supplement",
+    "aesthetic",
+    "wellness",
+    "alternative",
+    "homeopathic",
+    "beauty",
+    "fitness",
+    "weight loss"
+  ],
+  "excluded_procedures": [
+    "cosmetic surgery",
+    "plastic surgery",
+    "aesthetic procedures",
+    "beauty treatments",
+    "elective procedures",
+    "cosmetic dentistry",
+    "wellness treatments",
+    "alternative therapies"
+  ],
+  "restricted_items": [
+    "vitamins",
+    "supplements",
+    "protein powders",
+    "diet pills",
+    "beauty products",
+    "cosmetic products"
+  ],
+  "policy_notes": {
+    "exclusion_reason": "These items are not covered under standard medical insurance policies",
+    "coverage_type": "Only medically necessary treatments and procedures are covered",
+    "prior_approval": "Some procedures may require prior approval from insurance provider",
+    "documentation": "Medical necessity must be documented by healthcare provider"
+  }
+} 
