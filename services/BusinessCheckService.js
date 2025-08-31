@@ -7,7 +7,7 @@ class BusinessCheckService {
     this.loadTncExclusions();
   }
 
-  // Load T&C exclusions from JSON file
+  // to Load T&C exclusions from JSON file
   async loadTncExclusions() {
     try {
       const tncPath = path.join(__dirname, '../data/tnc_exclusions.json');
